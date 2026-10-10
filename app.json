@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "Icon Changer",
+    "slug": "icon-changer",
+    "scheme": "iconchanger",
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.abdoayman.iconchanger",
+      "adaptiveIcon": {
+        "backgroundColor": "#F4C542",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "abdonawar",
+    "extra": {
+      "eas": {
+        "projectId": "a2d0b896-7a3e-49ae-b165-9d30fc60acd3"
+      }
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "runtimeVersion": { "policy": "appVersion" },
+          "url": "https://u.expo.dev/a2d0b896-7a3e-49ae-b165-9d30fc60acd3"
+        }
+      ],
+      "expo-sharing",
+      [
+        "expo-image-picker",
+        {
+          "microphonePermission": false
+        }
+      ],
+      "./plugins/withIconChangerQueries",
+      "./plugins/withIconVariants",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFF9E9",
+          "dark": {
+            "backgroundColor": "#FFF9E9"
+          }
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
