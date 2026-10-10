@@ -11,9 +11,8 @@ This directory contains the standalone Expo / React Native Android app. The Maca
 - Expo SDK: `57.0.0` (dependency range `~57.0.27`)
 - React Native: `0.86.3`
 - Package manager: npm
-- EAS owner: `abdonawar`
-- EAS project ID: `a2d0b896-7a3e-49ae-b165-9d30fc60acd3`
-
+- EAS owner: `abdonawars-team`
+- - EAS project ID: `11e433f7-faa3-467e-ae90-b69b1bfe9804`
 ## What the app does
 - Arabic-first (with English) UI for creating icon designs; dark / light / system theme.
 - Designs from: a photo, a ready-made pack, a shape from the Iconify library, or free symbol/letters, over a palette or custom HEX color.
